@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Digital Paper</title><link href="http://chiragjn.github.io/blog/" rel="alternate"></link><link href="http://chiragjn.github.io/blog/feeds/general.atom.xml" rel="self"></link><id>http://chiragjn.github.io/blog/</id><updated>2015-12-04T00:32:00+05:30</updated><entry><title>I Use…</title><link href="http://chiragjn.github.io/blog/i-use.html" rel="alternate"></link><updated>2015-12-04T00:32:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/i-use.html</id><summary type="html">&lt;div class="section" id="hardware"&gt;
+&lt;h2&gt;Hardware&lt;/h2&gt;
+&lt;div class="section" id="dell-inspiron-15r-n5010"&gt;
+&lt;h3&gt;1. Dell Inspiron 15R&amp;nbsp;N5010&lt;/h3&gt;
+&lt;pre class="literal-block"&gt;
+CPU : 2.4GHz Intel™ 1st Generation Core i3 370M
+Memory : 1.3GHz 4GB DDR3 RAM
+Disk : 320GB HDD + 1TB WD HDD
+Graphics : 64MB dedicated Intel HD Graphics
+Operating System : OSX Yosemite 10.10.1, Windows 10
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="yu-yureka"&gt;
+&lt;h3&gt;2. &lt;span class="caps"&gt;YU&lt;/span&gt;&amp;nbsp;Yureka&lt;/h3&gt;
+&lt;pre class="literal-block"&gt;
+Codename : tomato
+CPU : Qualcomm® Snapdragon™ 615 - 4x 1.7GHz Cortex-A53 + 4x 1.0GHz Cortex-A53
+Memory : 2GB LPDDR3 800 MHz Single-channel 32-bit
+Disk : 16GB eMMC
+Graphics : Adreno 405
+Operating System : SOKP on Android™
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-mobile-devices"&gt;
+&lt;h3&gt;3. Other Mobile&amp;nbsp;Devices&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Xolo &lt;span class="caps"&gt;Q700S&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Xiaomi Redmi&amp;nbsp;1s&lt;/li&gt;
+&lt;li&gt;Sony Ericsson&amp;nbsp;Cedar&lt;/li&gt;
+&lt;li&gt;Nokia&amp;nbsp;2690&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="software"&gt;
+&lt;h2&gt;Software&lt;/h2&gt;
+&lt;div class="section" id="text-editors"&gt;
+&lt;h3&gt;1. Text&amp;nbsp;Editors&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Sublime Text&amp;nbsp;2&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;GNU&lt;/span&gt;&amp;nbsp;Nano&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ides"&gt;
+&lt;h3&gt;2.&amp;nbsp;IDEs&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Eclipse&lt;/li&gt;
+&lt;li&gt;Android&amp;nbsp;Studio&lt;/li&gt;
+&lt;li&gt;Xcode&lt;/li&gt;
+&lt;li&gt;PyCharm&lt;/li&gt;
+&lt;li&gt;PHPStorm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="blog-engine"&gt;
+&lt;h3&gt;3. Blog&amp;nbsp;Engine&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Pelican hosted with Github&amp;nbsp;Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="blog-theme"&gt;
+&lt;h3&gt;4. Blog&amp;nbsp;Theme&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Modified Version of &lt;a class="reference external" href="https://github.com/ggimse/perec"&gt;Perec&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary><category term="hardware"></category><category term="software"></category></entry></feed>
