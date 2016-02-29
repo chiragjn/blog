@@ -1969,3 +1969,12 @@ main div#ending_message {
 p.first.last{
   margin-bottom: 0;
 }
+
+img { 
+  max-width: 100%!important;
+  height: auto; 
+}
+
+.text-align-center{
+  text-align: center;
+}
