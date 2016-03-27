@@ -1978,3 +1978,9 @@ img {
 .text-align-center{
   text-align: center;
 }
+
+.show-inline{
+  display: inline-block;
+}
+
+
