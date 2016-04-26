@@ -1676,7 +1676,8 @@ body {
   padding: 0;
   background-color: #ffffff;
   color: #4d4d4d;
-  font-family: 'Raleway', 'Lucida Grande', 'Lucida Sans Unicode', verdana, sans-serif;
+  /*font-family: 'Raleway', 'Lucida Grande', 'Lucida Sans Unicode', verdana, sans-serif;*/
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   font-size: 1.125em;
 }
 a {
@@ -1802,9 +1803,11 @@ main article {
 }
 main article div#article_text {
   line-height: 1.375em;
-  font-family: 'Roboto Slab', 'Hoefler Text', 'Cambria', Georgia, 'Times New Roman', Times, serif;
+  /*font-family: 'Roboto Slab', 'Hoefler Text', 'Cambria', Georgia, 'Times New Roman', Times, serif;*/
+  font-family: Verdana, Geneva, sans-serif;
 }
 main article div#article_text h2 {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   font-size: 1.4em;
 }
 main article div#article_text a {
