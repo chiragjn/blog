@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Digital Paper</title><link href="http://chiragjn.github.io/blog/" rel="alternate"></link><link href="http://chiragjn.github.io/blog/feeds/general.atom.xml" rel="self"></link><id>http://chiragjn.github.io/blog/</id><updated>2015-12-04T00:32:00+05:30</updated><entry><title>I Use…</title><link href="http://chiragjn.github.io/blog/i-use.html" rel="alternate"></link><updated>2015-12-04T00:32:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/i-use.html</id><summary type="html">&lt;div class="section" id="hardware"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Digital Paper</title><link href="http://chiragjn.github.io/blog/" rel="alternate"></link><link href="http://chiragjn.github.io/blog/feeds/general.atom.xml" rel="self"></link><id>http://chiragjn.github.io/blog/</id><updated>2015-12-04T00:32:00+05:30</updated><entry><title>I use…</title><link href="http://chiragjn.github.io/blog/i-use.html" rel="alternate"></link><updated>2015-12-04T00:32:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/i-use.html</id><summary type="html">&lt;div class="section" id="hardware"&gt;
 &lt;h2&gt;Hardware&lt;/h2&gt;
 &lt;div class="section" id="dell-inspiron-15r-n5010"&gt;
 &lt;h3&gt;1. Dell Inspiron 15R&amp;nbsp;N5010&lt;/h3&gt;
@@ -19,7 +19,7 @@ CPU : Qualcomm® Snapdragon™ 615 - 4x 1.7GHz Cortex-A53 + 4x 1.0GHz Cortex-A53
 Memory : 2GB LPDDR3 800 MHz Single-channel 32-bit
 Disk : 16GB eMMC
 Graphics : Adreno 405
-Operating System : SOKP on Android™
+Operating System : Android™ Marshmallow
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class="section" id="other-mobile-devices"&gt;

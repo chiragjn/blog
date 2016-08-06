@@ -1986,4 +1986,6 @@ img {
   display: inline-block;
 }
 
-
+.round-image{
+  border-radius: 50%
+}
