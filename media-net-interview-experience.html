@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <link rel="stylesheet/less" type="text/css" href="http://chiragjn.github.io/blog/theme/css/style.less">
+  <script src="http://chiragjn.github.io/blog/theme/js/less-1.3.3.min.js" type="text/javascript"></script> test -->
+  <link rel="stylesheet" type="text/css" href="http://chiragjn.github.io/blog/theme/css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="http://chiragjn.github.io/blog/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Chirag Jain">
+  <meta name="description" content="Posts and writings by Chirag Jain">
+  <link rel="shortcut icon" href="http://chiragjn.github.io/blog/theme/images/favicon.ico" type="image/x-icon" />
+  <link href="http://chiragjn.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Digital Paper Full Atom Feed" />
+
+<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+<link rel="stylesheet" href="http://chiragjn.github.io/blog/theme/css/kudosplease-min.css">
+<meta name="keywords" content="software, interview">
+
+  <title>
+Media.net Interview Experience  </title>
+
+<script>
+  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  // })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  // ga('create', 'UA-82047790-1', 'auto');
+  // ga('send', 'pageview');
+  var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-82047790-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</head>
+
+<body>
+  <aside style="background : url('http://chiragjn.github.io/blog/theme/images/background-cover.jpg') top left no-repeat #4d4d4d;">
+    <div id="user_meta">
+        <a href="http://chiragjn.github.io/blog">
+        <img src="http://chiragjn.github.io/blog/theme/images/logo.png" alt="logo">
+      </a>
+      <h2><a href="http://chiragjn.github.io/blog">The Digital Paper</a></h2>
+      <p class="tagline">Technology and Thoughts</p>
+      <div id="social_links">
+	<ul id="social_list">
+        <li><a href="https://github.com/chiragjn/" rel='me' target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="mailto:jain.chirag925@gmail.com" rel='me' target="_blank"><i class="fa fa-at fa-2x"></i></a></li>
+        <li><a href="https://www.facebook.com/chiragjn101" rel='me' target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+        <li><a href="http://www.twitter.com/chiragjn101" rel='me' target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a href="http://stackoverflow.com/users/3697191/chiragjn" rel='me' target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a></li>
+        <li><a href="http://linkedin.com/in/chiragjn" rel='me' target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+	</ul>
+      </div>
+      <ul>
+        <li><a  href="http://chiragjn.github.io/blog/pages/about.html">About</a></li>
+        <li><a  href="http://chiragjn.github.io/blog/archives.html">Archives</a></li>
+       </ul>
+    </div>
+    <div class="overlay">
+    </div>
+  </aside>
+
+  <main>
+     <header>
+<p>Posted on Sat 06 August 2016</p>
+    </header>
+<article>
+  <div id="article_title">
+    <h1><a href="http://chiragjn.github.io/blog/media-net-interview-experience.html">Media.net Interview&nbsp;Experience</a></h1>
+  </div>
+  <div id="article_text">
+    <p>Media.net visited my college campus this year for hiring developers for Web/Database Engineer and Application Engineer&nbsp;roles.</p>
+<blockquote>
+&#8220;<a class="reference external" href="http://www.media.net">Media.net</a> a <a class="reference external" href="http://directi.com">Directi</a> company, powers the Yahoo! Bing Network Contextual Ads program and is a leading global contextual advertising company that provides a wide range of advertising and traffic monetization solutions.&#8221;</blockquote>
+<p>They had four rounds, one programming aptitude and three one-on-one technical interviews. Each round was an elimination round. I have listed down most of the questions asked in all four rounds as best as I can remember them. I am leaving out the solutions to these questions for exercise to the reader.  Some questions are follow up questions. Some of these are open ended questions and can be answered better by self&nbsp;exploration.</p>
+<div class="section" id="round-1-programming-aptitude">
+<h2>Round 1: Programming&nbsp;Aptitude</h2>
+<p>This round has two competitive programming style questions to solve in 90 minutes and was hosted on Codechef. To qualify for Web/Database interview, we had to solve one and for the Application role, both. Even though they had partial scoring scheme, they considered only completely solved&nbsp;solutions.</p>
+<p>Question&nbsp;1:</p>
+<div class="highlight"><pre><span></span>In a room with N people, some people wear a white band and others wear a black band.
+No individual knows the color of their own band.
+Each person reports the count of white bands Wi they can see in the room.
+Given N such integers return how many are wearing white bands.
+If invalid configuration return -1
+
+So example {1,1,2,2} will return 2, {10,10} will return -1, {2,2,2} will return 3
+
+Constraints: 2 ≤ N ≤ 50, 0 ≤ Wi ≤ 50
+</pre></div>
+<p>Question&nbsp;2:</p>
+<div class="highlight"><pre><span></span>You are walking down the escalator to catch a subway train.
+The escalator itself moves at a speed of Ve meters per minute.
+You can walk down the escalator at a relative speed of Vy meters per minute.
+The length of the escalator is L meters.
+Trains arrive T minutes apart.
+Let t be the time between your arrival to the station if you stand still on the
+escalator and the arrival of the last train before your arrival.
+Assume that t is a random variable uniformly distributed between 0 and T.
+Return the probability of catching an earlier train if you choose to walk down
+the escalator instead of standing still on it.
+
+Tc test cases, each has 4 integers Ve, Vy, L, T
+0 ≤ Tc ≤ 5 * 10 ^ 7
+1 ≤ Ve ≤ 1000
+1 ≤ Vy ≤ 1000
+1 ≤ L ≤ 10 ^ 5
+1 ≤ T ≤ 10 ^ 6
+
+Input:
+
+2
+10
+10
+20
+2
+10
+10
+100
+4
+
+Output:
+
+0.5
+1.0
+</pre></div>
+<p>I managed to solve the first one quickly. It just happened that I had solved the second problem before in their off-campus internship round and got it accepted back then, but despite submitting the same logic this time I got a wrong answer verdict. Nobody managed to solve it this time. I tried contacting the on-campus co-ordinators, they agreed that they did reuse the problem but they said they tested everything. I wasn&#8217;t satisfied. As software engineers shouldn&#8217;t we expect the code we wrote yesterday to work the same today&nbsp;?</p>
+<p>At the end of the test, 12 from our college were selected to appear for the Web/Database interview rounds the next day in Directiplex(Mumbai&nbsp;office).</p>
+</div>
+<div class="section" id="round-2-technical-interview-algorithms-ds">
+<h2>Round 2: Technical Interview (Algorithms, <span class="caps">DS</span>)</h2>
+<p>I raised my aptitude issue, interviewer said he will inform the <span class="caps">HR</span> about it. Since I mentioned some web projects on resume, my interview started with web questions. All questions marked with double asterisks needed to be coded on&nbsp;paper.</p>
+<ol class="arabic simple">
+<li>Tell me about different <span class="caps">HTTP</span> response codes&nbsp;?</li>
+<li>How is a website loaded&nbsp;?</li>
+<li>How do sessions work in <span class="caps">PHP</span> ? Where is session stored ? How do stateless http requests match the same session for a user&nbsp;?</li>
+<li>Why did you choose Laravel only for <span class="caps">PHP</span>? Why not some other&nbsp;framework?</li>
+<li>Do you know about <span class="caps">XSS</span> attacks&nbsp;?</li>
+<li>** Get second highest number from array in single&nbsp;pass.</li>
+<li>** Get second last node in linked list without knowing the&nbsp;length.</li>
+<li>** Print all perfect cubes between L and&nbsp;R.</li>
+<li>** From an array, find the minimum length subarray which sums upto strictly greater than a given number&nbsp;x.</li>
+<li>What databases have you worked with ? Have you heard of in memory databases ? Advantages and disadvantages over disk based database&nbsp;systems.</li>
+<li>What mechanisms do you think you will need to have to be able to use in memory database&nbsp;?</li>
+</ol>
+<p>This round was easy and I was able to give satisfactory answers. 11 of us were selected for the next&nbsp;round.</p>
+</div>
+<div class="section" id="round-3-technical-interview-web-databases">
+<h2>Round 3: Technical Interview (Web,&nbsp;Databases)</h2>
+<p>This round was very profile specific and I barely managed to produce satisfactory answers but I kept giving answers even though I was uncertain about a lot of&nbsp;things.</p>
+<ol class="arabic simple">
+<li>What all things to take care of while calling third party APIs ? (you don&#8217;t own the <span class="caps">API</span>)</li>
+<li>How does session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests&nbsp;?</li>
+<li><span class="caps">XML</span>/ <span class="caps">JSON</span> parsing in Javascript, given some example , write code to get some value from <span class="caps">JSON</span> object or <span class="caps">JSON</span> array out, optimise the written&nbsp;code.</li>
+<li>How does Ajax work&nbsp;?</li>
+<li>What are cookies ? What would you store in them ? Where are cookies stored ? What is that path on the disk ? As an end user, if I don&#8217;t know the disk path, is there someway I can view the cookies&nbsp;?</li>
+<li>What is XMLHTTPRequest&nbsp;?</li>
+<li>Storage engines in MySQL ? Differences between InnoDB and MyISAM ? What other storage engines you have heard of&nbsp;?</li>
+<li>You get results from 3rd party <span class="caps">API</span> in paginated fashion or say you scrape the pages, how would you get the total count of results without parsing all pages ? (<em>I asked if the pagination was even, interviewer denied and I got stuck for long time, gave some approaches but nothing seemed a complete solution</em>)</li>
+<li>Write an <span class="caps">SQL</span> query to get Average Salary per department, with department name for the following schema: <span class="caps">EMP</span>(<span class="caps">ID</span>,<span class="caps">NAME</span>,<span class="caps">SAL</span>,D_ID), <span class="caps">DEPT</span>(<span class="caps">ID</span>,<span class="caps">NAME</span>)</li>
+</ol>
+<p>This round was difficult for me. 10 of us were selected for the final round held on the next&nbsp;day.</p>
+</div>
+<div class="section" id="round-4-technical-interview-algorithms-ds-cs-fundamentals">
+<h2>Round 4: Technical Interview (Algorithms, <span class="caps">DS</span>, <span class="caps">CS</span>&nbsp;Fundamentals)</h2>
+<p>I raised my aptitude issue again with the <span class="caps">HR</span>, but I got no immediate response. My interview turn came the last among all&nbsp;candidates.</p>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Given a blackbox(no details of internal implemenation) class Queue{ void enqueue(int); int dequeue();}, make only two instances and implement stack using&nbsp;them.</dt>
+<dd><p class="first last"><em>I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two&nbsp;functions.</em></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Given a 2d array of &#8216;x&#8217;s and &#8216;o&#8217;s, where &#8216;x&#8217; is land and &#8216;o&#8217; is water, return number of continents, land is connected 4 ways not&nbsp;diagonally.</dt>
+<dd><p class="first last"><em>I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted &#8216;x&#8217;s to &#8216;o&#8217;s in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gives me a hint that continents would always be rectangles. I got the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move&nbsp;on.</em></p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal&nbsp;collisions.</dt>
+<dd><p class="first last"><em>Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the&nbsp;interview.</em></p>
+</dd>
+</dl>
+</li>
+</ol>
+<p>Again this round was difficult for me but here is the twist!
+Directi considered my issue and gave me a fair shot at Application profile. I was interviewed for Application profile and I didn&#8217;t knew it till the end. At the end of the interview, my interviewer told me I was interviewed for Application profile instead of Web/Database and I didn&#8217;t make the Application profile bar. I was offered the Web Developer&nbsp;role.</p>
+</div>
+<div class="section" id="conclusion-and-advice">
+<h2>Conclusion and&nbsp;Advice</h2>
+<p>To conclude, it was a positive experience for me and 8 out of 12 including me were hired for the Web developer role. Rejection is not always a bad thing! After getting rejected from Morgan Stanley interview few days back I was able to target and prepare better. And there are off-campus rounds every year to apply&nbsp;in.</p>
+<ol class="arabic simple" start="0">
+<li>For Algorithms and <span class="caps">DS</span>, read the classical problems and paradigms. Learn <a class="reference external" href="http://www.geeksforgeeks.org/fundamentals-of-algorithms/">here</a> and <a class="reference external" href="http://www.geeksforgeeks.org/data-structures/">here</a>. Operating Systems, Databases and Computer Networks questions are often&nbsp;asked.</li>
+<li>Practice competitive programming contests on <a class="reference external" href="http://codeforces.com">Codeforces</a>, especially as virtual contests to get the feel of time bound tests. Don&#8217;t just skip to editorial very early, think, think very hard!. Don&#8217;t just read/copy algorithms, understand and implement them, you will code the same thing very confidently and quickly the next&nbsp;time.</li>
+<li>Get used to writing code on paper. Typing is very&nbsp;easy!</li>
+<li>Get ready to answer anything related to the profile you have applied for. Take your time and think out loud even if&nbsp;unsure.</li>
+<li>Never assume anything! Ask. We live in a world where tools &#8216;just&#8217; work out of the box. Directi has very tech savvy people, there is literally tech scribbled all over their glass panes and whiteboards. It is very important to not take things for granted and know the internals/working of the&nbsp;tools.</li>
+<li>Research the company and their&nbsp;work.</li>
+<li>Evaluate yourself, know your strengths and weaknesses, how to describe&nbsp;yourself.</li>
+</ol>
+<p>Also if you end up in a issue like mine, don&#8217;t hesitate to talk with the <span class="caps">HR</span> as soon as possible, but do so with proof in&nbsp;hand.</p>
+<div class="section" id="best-of-luck">
+<h3>Best of&nbsp;luck!</h3>
+<p><span class="caps">P.S.</span> I have a comments section now. You can leave any questions / suggestions / corrections / feedback&nbsp;below.</p>
+</div>
+</div>
+
+  </div>
+  <div id="article_meta" class="show-inline">
+  	<p>Author: <a href="http://chiragjn.github.io/blog/author/chirag-jain.html">Chirag Jain</a></p>
+    <p>Category: <a href="http://chiragjn.github.io/blog/category/technology.html">Technology</a></p>
+    <p>Tags:
+      <a href="http://chiragjn.github.io/blog/tag/software.html">software</a>,      <a href="http://chiragjn.github.io/blog/tag/interview.html">interview</a>    </p>
+  </div>
+  <!-- <div class="pull-right show-inline">
+    <div class="kudos small-size" data-amount="0" data-url=""></div>
+  </div> -->
+    <div class="comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "media-net-interview-experience.html";
+        var disqus_url = "http://chiragjn.github.io/blog/media-net-interview-experience.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://thedigitalpaper.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+</article>
+
+    <footer>
+
+<p><a href="http://chiragjn.github.io/blog/" class="button_accent">&larr; Back to Index</a></p>
+<script src="http://chiragjn.github.io/blog/theme/js/jquery-2.1.1.min.js"></script>
+<!-- <script src="http://chiragjn.github.io/blog/theme/js/kudosplease-min.js"></script> -->
+<!-- <script type="text/javascript">
+  // $(document).ready(function() {
+  //   var url_without_protocol = window.location.href.split("//")[1];
+  //   $('.kudos').attr('data-url',url_without_protocol);
+  //   new KudosPlease({ 
+  //       el : '.kudos',
+  //       duration : 1500,
+  //       persistent : true,
+  //       status : {
+  //          alpha : 'fontawesome-star',
+  //          beta : 'fontawesome-glass',
+  //          gamma : 'fontawesome-bolt'
+  //       }
+  //   });
+  // });
+</script> -->
+    </footer>
+
+    <div id="ending_message">
+      <p>&copy Chirag Jain. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. <a href="https://github.com/chiragjn/The-Digital-Paper-src/tree/master/themes/perec-mod" target="_blank">Theme</a> adapted from Perec available on <a href="https://github.com/ggimse/perec" target="_blank">github</a>. Most of the images used on this site are in the Public Domain .</p>
+    </div>
+  </main>
+</body>
+</html>
