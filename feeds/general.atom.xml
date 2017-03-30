@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Digital Paper</title><link href="http://chiragjn.github.io/blog/" rel="alternate"></link><link href="http://chiragjn.github.io/blog/feeds/general.atom.xml" rel="self"></link><id>http://chiragjn.github.io/blog/</id><updated>2015-12-04T00:32:00+05:30</updated><entry><title>I use…</title><link href="http://chiragjn.github.io/blog/i-use.html" rel="alternate"></link><updated>2015-12-04T00:32:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/i-use.html</id><summary type="html">&lt;div class="section" id="hardware"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Digital Paper</title><link href="https://chiragjn.github.io/blog/" rel="alternate"></link><link href="https://chiragjn.github.io/blog/feeds/general.atom.xml" rel="self"></link><id>https://chiragjn.github.io/blog/</id><updated>2015-12-04T00:32:00+05:30</updated><entry><title>I use…</title><link href="https://chiragjn.github.io/blog/i-use.html" rel="alternate"></link><published>2015-12-04T00:32:00+05:30</published><updated>2015-12-04T00:32:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/i-use.html</id><summary type="html">&lt;div class="section" id="hardware"&gt;
 &lt;h2&gt;Hardware&lt;/h2&gt;
 &lt;div class="section" id="dell-inspiron-15r-n5010"&gt;
 &lt;h3&gt;1. Dell Inspiron 15R&amp;nbsp;N5010&lt;/h3&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;::&lt;/dt&gt;
+&lt;dd&gt;Macbook Pro Late 2016 - (Non Touch Bar)
+Operating System: macOS Sierra&amp;nbsp;10.12.3&lt;/dd&gt;
+&lt;/dl&gt;
 &lt;pre class="literal-block"&gt;
 CPU : 2.4GHz Intel™ 1st Generation Core i3 370M
 Memory : 1.3GHz 4GB DDR3 RAM
@@ -19,7 +24,7 @@ CPU : Qualcomm® Snapdragon™ 615 - 4x 1.7GHz Cortex-A53 + 4x 1.0GHz Cortex-A53
 Memory : 2GB LPDDR3 800 MHz Single-channel 32-bit
 Disk : 16GB eMMC
 Graphics : Adreno 405
-Operating System : Android™ Marshmallow
+Operating System : Android™ Nougat
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class="section" id="other-mobile-devices"&gt;
