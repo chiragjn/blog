@@ -1839,7 +1839,7 @@ main article div#article_text pre {
 main article div#article_text blockquote {
   margin: 22px 2px 22px 2px;
   padding-left: 40px;
-  color: #999999;
+  color: #666666;
   font-style: italic;
 }
 main article div#article_text img.align-center {
@@ -1988,4 +1988,8 @@ img {
 
 .round-image{
   border-radius: 50%
+}
+
+.highlight{
+  font-style: normal !important;
 }

@@ -158,35 +158,40 @@ Output:
 <p>This round was very profile specific and I barely managed to produce satisfactory answers but I kept giving answers even though I was uncertain about a lot of&nbsp;things.</p>
 <ol class="arabic simple">
 <li>What all things to take care of while calling third party APIs ? (you don&#8217;t own the <span class="caps">API</span>)</li>
-<li>How does session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests&nbsp;?</li>
+<li>How does a session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests&nbsp;?</li>
 <li><span class="caps">XML</span>/ <span class="caps">JSON</span> parsing in Javascript, given some example , write code to get some value from <span class="caps">JSON</span> object or <span class="caps">JSON</span> array out, optimise the written&nbsp;code.</li>
 <li>How does Ajax work&nbsp;?</li>
 <li>What are cookies ? What would you store in them ? Where are cookies stored ? What is that path on the disk ? As an end user, if I don&#8217;t know the disk path, is there someway I can view the cookies&nbsp;?</li>
 <li>What is XMLHTTPRequest&nbsp;?</li>
 <li>Storage engines in MySQL ? Differences between InnoDB and MyISAM ? What other storage engines you have heard of&nbsp;?</li>
 <li>You get results from 3rd party <span class="caps">API</span> in paginated fashion or say you scrape the pages, how would you get the total count of results without parsing all pages ? (<em>I asked if the pagination was even, interviewer denied and I got stuck for long time, gave some approaches but nothing seemed a complete solution</em>)</li>
-<li>Write an <span class="caps">SQL</span> query to get Average Salary per department, with department name for the following schema: <span class="caps">EMP</span>(<span class="caps">ID</span>,<span class="caps">NAME</span>,<span class="caps">SAL</span>,D_ID), <span class="caps">DEPT</span>(<span class="caps">ID</span>,<span class="caps">NAME</span>)</li>
+<li>Write a <span class="caps">SQL</span> query to get Average Salary per department, with department name for the following schema: <span class="caps">EMP</span>(<span class="caps">ID</span>,<span class="caps">NAME</span>,<span class="caps">SAL</span>,D_ID), <span class="caps">DEPT</span>(<span class="caps">ID</span>,<span class="caps">NAME</span>)</li>
 </ol>
 <p>This round was difficult for me. 10 of us were selected for the final round held on the next&nbsp;day.</p>
 </div>
 <div class="section" id="round-4-technical-interview-algorithms-ds-cs-fundamentals">
 <h2>Round 4: Technical Interview (Algorithms, <span class="caps">DS</span>, <span class="caps">CS</span>&nbsp;Fundamentals)</h2>
 <p>I raised my aptitude issue again with the <span class="caps">HR</span>, but I got no immediate response. My interview turn came the last among all&nbsp;candidates.</p>
-<ol class="arabic simple">
-<li><dl class="first docutils">
-<dt>Given a blackbox(no details of internal implemenation) class Queue{ void enqueue(int); int dequeue();}, make only two instances and implement stack using&nbsp;them.</dt>
-<dd><em>I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two&nbsp;functions.</em></dd>
-</dl>
+<ol class="arabic">
+<li><p class="first">Given a blackbox(no details of internal implemenation) Queue, make only two instances and implement stack using&nbsp;them.</p>
+<blockquote>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Queue</span><span class="p">{</span>
+    <span class="kt">void</span> <span class="n">enqueue</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="nf">dequeue</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+<p><em>I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two&nbsp;functions.</em></p>
+</blockquote>
 </li>
-<li><dl class="first docutils">
-<dt>Given a 2d array of &#8216;x&#8217;s and &#8216;o&#8217;s, where &#8216;x&#8217; is land and &#8216;o&#8217; is water, return number of continents, land is connected 4 ways not&nbsp;diagonally.</dt>
-<dd><em>I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted &#8216;x&#8217;s to &#8216;o&#8217;s in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gives me a hint that continents would always be rectangles. I got the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move&nbsp;on.</em></dd>
-</dl>
+<li><p class="first">Given a 2d array of &#8216;x&#8217;s and &#8216;o&#8217;s, where &#8216;x&#8217; is land and &#8216;o&#8217; is water, return number of continents, land is connected 4 ways not&nbsp;diagonally.</p>
+<blockquote>
+<p><em>I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted &#8216;x&#8217;s to &#8216;o&#8217;s in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gave me a hint that continents would always be rectangles. I tried using the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move&nbsp;on.</em></p>
+</blockquote>
 </li>
-<li><dl class="first docutils">
-<dt>10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal&nbsp;collisions.</dt>
-<dd><em>Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the&nbsp;interview.</em></dd>
-</dl>
+<li><p class="first">10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal&nbsp;collisions.</p>
+<blockquote>
+<p><em>Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the&nbsp;interview.</em></p>
+</blockquote>
 </li>
 </ol>
 <p>Again this round was difficult for me but here is the twist!
