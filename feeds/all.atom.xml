@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Digital Paper</title><link href="https://chiragjn.github.io/blog/" rel="alternate"></link><link href="https://chiragjn.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://chiragjn.github.io/blog/</id><updated>2016-08-06T14:23:00+05:30</updated><entry><title>Media.net Interview Experience</title><link href="https://chiragjn.github.io/blog/media-net-interview-experience.html" rel="alternate"></link><published>2016-08-06T14:23:00+05:30</published><updated>2016-08-06T14:23:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2016-08-06:blog/media-net-interview-experience.html</id><summary type="html">&lt;p&gt;Media.net visited my college campus this year for hiring developers for Web/Database Engineer and Application Engineer&amp;nbsp;roles.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Digital Paper</title><link href="https://chiragjn.github.io/blog/" rel="alternate"></link><link href="https://chiragjn.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://chiragjn.github.io/blog/</id><updated>2016-08-06T14:23:00+05:30</updated><entry><title>Media.net Interview Experience</title><link href="https://chiragjn.github.io/blog/media-net-interview-experience.html" rel="alternate"></link><published>2016-08-06T14:23:00+05:30</published><updated>2016-08-06T14:23:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2016-08-06:/blog/media-net-interview-experience.html</id><summary type="html">&lt;p class="first last"&gt;My interview experience at&amp;nbsp;Directi&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Media.net visited my college campus this year for hiring developers for Web/Database Engineer and Application Engineer&amp;nbsp;roles.&lt;/p&gt;
 &lt;blockquote&gt;
 &amp;#8220;&lt;a class="reference external" href="http://www.media.net"&gt;Media.net&lt;/a&gt; a &lt;a class="reference external" href="http://directi.com"&gt;Directi&lt;/a&gt; company, powers the Yahoo! Bing Network Contextual Ads program and is a leading global contextual advertising company that provides a wide range of advertising and traffic monetization solutions.&amp;#8221;&lt;/blockquote&gt;
 &lt;p&gt;They had four rounds, one programming aptitude and three one-on-one technical interviews. Each round was an elimination round. I have listed down most of the questions asked in all four rounds as best as I can remember them. I am leaving out the solutions to these questions for exercise to the reader.  Some questions are follow up questions. Some of these are open ended questions and can be answered better by self&amp;nbsp;exploration.&lt;/p&gt;
@@ -136,7 +137,8 @@ Directi considered my issue and gave me a fair shot at Application profile. I wa
 &lt;p&gt;&lt;span class="caps"&gt;P.S.&lt;/span&gt; I have a comments section now. You can leave any questions / suggestions / corrections / feedback&amp;nbsp;below.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="software"></category><category term="interview"></category></entry><entry><title>ProFit app showcase</title><link href="https://chiragjn.github.io/blog/profit-app-showcase.html" rel="alternate"></link><published>2016-02-29T22:05:00+05:30</published><updated>2016-02-29T22:05:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2016-02-29:blog/profit-app-showcase.html</id><summary type="html">&lt;p&gt;So a lot of people asked me about what my team made that won us the first prize at SportsHack 2016 Hackathon held by &lt;a class="reference external" href="http://india.zonestartups.com/"&gt;Zone Startups&lt;/a&gt;,India in Association with &lt;a class="reference external" href="http://www.ausport.gov.au/ais"&gt;Australia Institute of Sports&lt;/a&gt;.So here&amp;#8217;s to ProFit - The PROfessional FITness&amp;nbsp;App.&lt;/p&gt;
+</content><category term="interview"></category><category term="programming"></category><category term="competitive-programming"></category><category term="problem-solving"></category></entry><entry><title>ProFit app showcase</title><link href="https://chiragjn.github.io/blog/profit-app-showcase.html" rel="alternate"></link><published>2016-02-29T22:05:00+05:30</published><updated>2016-02-29T22:05:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2016-02-29:/blog/profit-app-showcase.html</id><summary type="html">&lt;p class="first last"&gt;The ProFit android app&amp;nbsp;showcase&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;So a lot of people asked me about what my team made that won us the first prize at SportsHack 2016 Hackathon held by &lt;a class="reference external" href="http://india.zonestartups.com/"&gt;Zone Startups&lt;/a&gt;,India in Association with &lt;a class="reference external" href="http://www.ausport.gov.au/ais"&gt;Australia Institute of Sports&lt;/a&gt;.So here&amp;#8217;s to ProFit - The PROfessional FITness&amp;nbsp;App.&lt;/p&gt;
 &lt;img alt="ProFit App Icon" class="align-center" src="images/profit/ic_launcher.png" style="width: 144.0px; height: 144.0px;" /&gt;
 &lt;div class="section" id="about-profit"&gt;
 &lt;h2&gt;About&amp;nbsp;ProFit&lt;/h2&gt;
@@ -187,43 +189,33 @@ Directi considered my issue and gave me a fair shot at Application profile. I wa
 &lt;p&gt;&lt;a class="reference external" href="https://www.facebook.com/s4shyam95"&gt;Shyam Mehta&lt;/a&gt; for the summary on&amp;nbsp;ProFit&lt;/p&gt;
 &lt;p&gt;Vitaly Rubstov for his inspiring &lt;a class="reference external" href="http://works.yalantis.com/workout-book/"&gt;Workout Book &lt;span class="caps"&gt;UI&lt;/span&gt; and &lt;span class="caps"&gt;UX&lt;/span&gt;&amp;nbsp;concept&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="technology"></category><category term="software"></category><category term="fitness"></category><category term="hackathon"></category><category term="android"></category><category term="fitons"></category></entry><entry><title>The Coming Soon Plugin for Pelican</title><link href="https://chiragjn.github.io/blog/the-coming-soon-plugin-for-pelican.html" rel="alternate"></link><published>2015-12-04T23:51:00+05:30</published><updated>2015-12-04T23:51:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/the-coming-soon-plugin-for-pelican.html</id><summary type="html">&lt;p&gt;Want to keep your pelican blog readers excited with what you are working with?
-I made a small plugin for Pelican which allows you to add &amp;#8220;Coming Soon&amp;#8221; Status to your blog posts.Your readers will see these articles listed on your blog but not its&amp;nbsp;content.&lt;/p&gt;
+</content><category term="technology"></category><category term="software"></category><category term="fitness"></category><category term="hackathon"></category><category term="android"></category><category term="fitons"></category></entry><entry><title>The Coming Soon Plugin for Pelican</title><link href="https://chiragjn.github.io/blog/the-coming-soon-plugin-for-pelican.html" rel="alternate"></link><published>2015-12-04T23:51:00+05:30</published><updated>2015-12-04T23:51:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:/blog/the-coming-soon-plugin-for-pelican.html</id><summary type="html">&lt;p class="first last"&gt;Make drafts visible as &amp;#8220;Coming&amp;nbsp;Soon&amp;#8221;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Want to keep your pelican blog readers excited with what you are working with?
+I made a small plugin for Pelican which allows you to add &amp;#8220;Coming Soon&amp;#8221; Status to your blog posts. Your readers will see these articles listed on your blog but not its&amp;nbsp;content.&lt;/p&gt;
 &lt;p&gt;The plugin is open source and available on &lt;a class="reference external" href="https://github.com/chiragjn/pelican-coming-soon-plugin"&gt;Github&lt;/a&gt; . Please see the &lt;span class="caps"&gt;README&lt;/span&gt;.md on on Github on how to integrate and use this&amp;nbsp;plugin.&lt;/p&gt;
 &lt;img alt="Screenshot" class="align-center" src="https://raw.githubusercontent.com/chiragjn/pelican-coming-soon-plugin/master/screenshot.png" /&gt;
-&lt;p&gt;&lt;span class="caps"&gt;P.S.&lt;/span&gt; This plugin can make you lazy!
-&lt;span class="caps"&gt;P.S.S.&lt;/span&gt; This plugin is not completely tested and runs a delete over output drafts to remove them from&amp;nbsp;published&lt;/p&gt;
-</summary><category term="software"></category><category term="pelican"></category></entry><entry><title>Moving to Pelican</title><link href="https://chiragjn.github.io/blog/moving-to-pelican.html" rel="alternate"></link><published>2015-12-04T04:08:00+00:00</published><updated>2015-12-04T04:08:00+00:00</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/moving-to-pelican.html</id><category term="software"></category><category term="technology"></category><category term="pelican"></category><category term="blogging"></category></entry><entry><title>I use…</title><link href="https://chiragjn.github.io/blog/i-use.html" rel="alternate"></link><published>2015-12-04T00:32:00+05:30</published><updated>2015-12-04T00:32:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:blog/i-use.html</id><summary type="html">&lt;div class="section" id="hardware"&gt;
+&lt;p&gt;&lt;span class="caps"&gt;P.S.&lt;/span&gt; This plugin can make you&amp;nbsp;lazy!&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;P.S.S.&lt;/span&gt; This plugin runs a delete over output drafts to remove them from published, so be careful with&amp;nbsp;it.&lt;/p&gt;
+</content><category term="software"></category><category term="pelican"></category></entry><entry><title>I use…</title><link href="https://chiragjn.github.io/blog/i-use.html" rel="alternate"></link><published>2015-12-04T00:32:00+05:30</published><updated>2015-12-04T00:32:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:/blog/i-use.html</id><summary type="html">&lt;p class="first last"&gt;What I develop&amp;nbsp;on/using&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="hardware"&gt;
 &lt;h2&gt;Hardware&lt;/h2&gt;
-&lt;div class="section" id="dell-inspiron-15r-n5010"&gt;
-&lt;h3&gt;1. Dell Inspiron 15R&amp;nbsp;N5010&lt;/h3&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;::&lt;/dt&gt;
-&lt;dd&gt;Macbook Pro Late 2016 - (Non Touch Bar)
-Operating System: macOS Sierra&amp;nbsp;10.12.3&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;pre class="literal-block"&gt;
-CPU : 2.4GHz Intel™ 1st Generation Core i3 370M
-Memory : 1.3GHz 4GB DDR3 RAM
-Disk : 320GB HDD + 1TB WD HDD
-Graphics : 64MB dedicated Intel HD Graphics
-Operating System : OSX ElCaptian 10.11.2,OSX Yosemite 10.10.1, Windows 10
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="yu-yureka"&gt;
-&lt;h3&gt;2. &lt;span class="caps"&gt;YU&lt;/span&gt;&amp;nbsp;Yureka&lt;/h3&gt;
-&lt;pre class="literal-block"&gt;
-Codename : tomato
-CPU : Qualcomm® Snapdragon™ 615 - 4x 1.7GHz Cortex-A53 + 4x 1.0GHz Cortex-A53
-Memory : 2GB LPDDR3 800 MHz Single-channel 32-bit
-Disk : 16GB eMMC
-Graphics : Adreno 405
-Operating System : Android™ Nougat
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="other-mobile-devices"&gt;
-&lt;h3&gt;3. Other Mobile&amp;nbsp;Devices&lt;/h3&gt;
+&lt;div class="section" id="main-computing-machine"&gt;
+&lt;h3&gt;1. Main Computing&amp;nbsp;Machine&lt;/h3&gt;
 &lt;ul class="simple"&gt;
+&lt;li&gt;Macbook Pro Late 2016 - (Non Touch&amp;nbsp;Bar)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mobile-devices"&gt;
+&lt;h3&gt;2. Mobile&amp;nbsp;Devices&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Xiaomi Redmi&amp;nbsp;4X&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-possibly-dead-devices"&gt;
+&lt;h3&gt;3. Other Possibly Dead&amp;nbsp;Devices&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Dell Inspiron N5010 (Running &lt;span class="caps"&gt;OSX&lt;/span&gt; El&amp;nbsp;Capitan)&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;YU&lt;/span&gt;&amp;nbsp;Yureka&lt;/li&gt;
 &lt;li&gt;Xolo &lt;span class="caps"&gt;Q700S&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Xiaomi Redmi&amp;nbsp;1s&lt;/li&gt;
 &lt;li&gt;Sony Ericsson&amp;nbsp;Cedar&lt;/li&gt;
@@ -236,18 +228,17 @@ Operating System : Android™ Nougat
 &lt;div class="section" id="text-editors"&gt;
 &lt;h3&gt;1. Text&amp;nbsp;Editors&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Sublime Text&amp;nbsp;2&lt;/li&gt;
-&lt;li&gt;&lt;span class="caps"&gt;GNU&lt;/span&gt;&amp;nbsp;Nano&lt;/li&gt;
-&lt;li&gt;Vi&lt;/li&gt;
+&lt;li&gt;Sublime Text&amp;nbsp;3&lt;/li&gt;
+&lt;li&gt;Vim&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="ides"&gt;
 &lt;h3&gt;2.&amp;nbsp;IDEs&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Eclipse&lt;/li&gt;
+&lt;li&gt;Pycharm&lt;/li&gt;
 &lt;li&gt;Android&amp;nbsp;Studio&lt;/li&gt;
 &lt;li&gt;Xcode&lt;/li&gt;
-&lt;li&gt;PyCharm&lt;/li&gt;
+&lt;li&gt;Eclipse&lt;/li&gt;
 &lt;li&gt;PhpStorm&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -264,4 +255,4 @@ Operating System : Android™ Nougat
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="hardware"></category><category term="software"></category></entry></feed>
+</content><category term="hardware"></category><category term="software"></category></entry></feed>
