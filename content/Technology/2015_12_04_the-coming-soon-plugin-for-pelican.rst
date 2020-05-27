@@ -9,7 +9,7 @@ The Coming Soon Plugin for Pelican
 :status: published
 
 Want to keep your pelican blog readers excited with what you are working with?
-I made a small plugin for Pelican which allows you to add "Coming Soon" Status to your blog posts.Your readers will see these articles listed on your blog but not its content.
+I made a small plugin for Pelican which allows you to add "Coming Soon" Status to your blog posts. Your readers will see these articles listed on your blog but not its content.
 
 The plugin is open source and available on `Github`_ . Please see the README.md on on Github on how to integrate and use this plugin.
 
@@ -18,6 +18,7 @@ The plugin is open source and available on `Github`_ . Please see the README.md 
    :align: center
 
 P.S. This plugin can make you lazy!
-P.S.S. This plugin is not completely tested and runs a delete over output drafts to remove them from published
+
+P.S.S. This plugin runs a delete over output drafts to remove them from published, so be careful with it.
 
 .. _`Github` : https://github.com/chiragjn/pelican-coming-soon-plugin

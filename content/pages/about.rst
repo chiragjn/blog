@@ -1,7 +1,7 @@
 About
 #####
 
-:date: 2016-8-6 00:00
+:date: 2020-5-28 00:00
 :slug: about
 :status: published
 
@@ -14,17 +14,9 @@ About
    :class: round-image
 
 
-Welcome to my blog!
 
-I am **Chirag Jain** and I am currently in my final year of Computer Engineering course at Dwarkadas J. Sanghvi College of Engineering. I love programming challenges which make me scratch my head.
+Hello, I am **Chirag** and welcome to my blog! Although I rarely write, I consider this blog as a virtual space to park / dump my thoughts on Software and Life. Some of my interests include large scale distributed systems, natural language processing, competitive programming, compiler infrastructure and tooling. When I am not working you'll most likely find me hacking away at some open source project or diving into software abstractions or binging TV shows.
 
-In the past two years, I have worked on several projects involving mobile apps with Android, iOS and web with Django and PHP. I have been to some hack-athons and won few of them. Recently I started exploring Machine Learning and have been reading up on Reinforcement Learning and NLP. You can find more about me with the social links on the left sidebar. My internet alias on most sites is "**chiragjn**".
+I am currently working at `Haptik`_ as a Machine Learning Engineer building NLU backend for virtual assistants. In the past I built some apps for Android, iOS and the web both professionally and in hack-a-thons. You can find more about me with the social links on the left sidebar. I keep my Linkedin fairly up to date. My internet alias on most sites is "**chiragjn**".
 
-I rarely write. I try my best to come up with something original to write about. This blog is a virtual space to park/dump my thoughts on Software and Life.
-
-I am currently working with `Haptik`_ as a Machine Learning Intern.
-
-I will be working with Media.net as a Web Developer beginning next year in July. You can read about my interview experience `here`_.
-
-.. _`here` : /blog/media-net-interview-experience.html
-.. _`Haptik`: http://haptik.co
+.. _`Haptik`: https://haptik.ai

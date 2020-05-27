@@ -9,7 +9,11 @@ PATH = 'content'
 TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = 'en'
 
-FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 IGNORE_FILES = ['.#*', '*.pyc', '__pycache__']
 THEME = "themes/perec-mod"

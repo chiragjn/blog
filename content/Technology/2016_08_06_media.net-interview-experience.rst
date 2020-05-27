@@ -105,14 +105,14 @@ Round 3: Technical Interview (Web, Databases)
 This round was very profile specific and I barely managed to produce satisfactory answers but I kept giving answers even though I was uncertain about a lot of things.
 
 1. What all things to take care of while calling third party APIs ? (you don't own the API)
-2. How does session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests ?
+2. How does a session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests ?
 3. XML/ JSON parsing in Javascript, given some example , write code to get some value from JSON object or JSON array out, optimise the written code.
 4. How does Ajax work ?
 5. What are cookies ? What would you store in them ? Where are cookies stored ? What is that path on the disk ? As an end user, if I don't know the disk path, is there someway I can view the cookies ?
 6. What is XMLHTTPRequest ?
 7. Storage engines in MySQL ? Differences between InnoDB and MyISAM ? What other storage engines you have heard of ?
 8. You get results from 3rd party API in paginated fashion or say you scrape the pages, how would you get the total count of results without parsing all pages ? (*I asked if the pagination was even, interviewer denied and I got stuck for long time, gave some approaches but nothing seemed a complete solution*)
-9. Write an SQL query to get Average Salary per department, with department name for the following schema: EMP(ID,NAME,SAL,D_ID), DEPT(ID,NAME)
+9. Write a SQL query to get Average Salary per department, with department name for the following schema: EMP(ID,NAME,SAL,D_ID), DEPT(ID,NAME)
 
 This round was difficult for me. 10 of us were selected for the final round held on the next day.
 
@@ -122,8 +122,17 @@ Round 4: Technical Interview (Algorithms, DS, CS Fundamentals)
 
 I raised my aptitude issue again with the HR, but I got no immediate response. My interview turn came the last among all candidates.
 
-1. Given a blackbox(no details of internal implemenation) class Queue{ void enqueue(int); int dequeue();}, make only two instances and implement stack using them.
-	*I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two functions.*
+1. Given a blackbox(no details of internal implemenation) Queue, make only two instances and implement stack using them.
+
+    .. code-block:: c++
+        
+        class Queue {
+            void enqueue(int);
+            int dequeue();
+        }
+
+
+    *I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two functions.*
 
 2. Given a 2d array of 'x's and 'o's, where 'x' is land and 'o' is water, return number of continents, land is connected 4 ways not diagonally.
 	*I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted 'x's to 'o's in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gives me a hint that continents would always be rectangles. I got the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move on.*

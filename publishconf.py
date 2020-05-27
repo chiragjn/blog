@@ -17,10 +17,5 @@ RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = False
 OUTPUT_PATH = 'github_output'
 
-# Following items are often useful when publishing
-FEED_DOMAIN = SITEURL
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
-
 DISQUS_SITENAME = "thedigitalpaper"
 GOOGLE_ANALYTICS = "UA-82047790-1"
