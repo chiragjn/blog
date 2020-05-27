@@ -80,40 +80,35 @@ Output:
 &lt;p&gt;This round was very profile specific and I barely managed to produce satisfactory answers but I kept giving answers even though I was uncertain about a lot of&amp;nbsp;things.&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;What all things to take care of while calling third party APIs ? (you don&amp;#8217;t own the &lt;span class="caps"&gt;API&lt;/span&gt;)&lt;/li&gt;
-&lt;li&gt;How does a session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests&amp;nbsp;?&lt;/li&gt;
+&lt;li&gt;How does session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests&amp;nbsp;?&lt;/li&gt;
 &lt;li&gt;&lt;span class="caps"&gt;XML&lt;/span&gt;/ &lt;span class="caps"&gt;JSON&lt;/span&gt; parsing in Javascript, given some example , write code to get some value from &lt;span class="caps"&gt;JSON&lt;/span&gt; object or &lt;span class="caps"&gt;JSON&lt;/span&gt; array out, optimise the written&amp;nbsp;code.&lt;/li&gt;
 &lt;li&gt;How does Ajax work&amp;nbsp;?&lt;/li&gt;
 &lt;li&gt;What are cookies ? What would you store in them ? Where are cookies stored ? What is that path on the disk ? As an end user, if I don&amp;#8217;t know the disk path, is there someway I can view the cookies&amp;nbsp;?&lt;/li&gt;
 &lt;li&gt;What is XMLHTTPRequest&amp;nbsp;?&lt;/li&gt;
 &lt;li&gt;Storage engines in MySQL ? Differences between InnoDB and MyISAM ? What other storage engines you have heard of&amp;nbsp;?&lt;/li&gt;
 &lt;li&gt;You get results from 3rd party &lt;span class="caps"&gt;API&lt;/span&gt; in paginated fashion or say you scrape the pages, how would you get the total count of results without parsing all pages ? (&lt;em&gt;I asked if the pagination was even, interviewer denied and I got stuck for long time, gave some approaches but nothing seemed a complete solution&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;Write a &lt;span class="caps"&gt;SQL&lt;/span&gt; query to get Average Salary per department, with department name for the following schema: &lt;span class="caps"&gt;EMP&lt;/span&gt;(&lt;span class="caps"&gt;ID&lt;/span&gt;,&lt;span class="caps"&gt;NAME&lt;/span&gt;,&lt;span class="caps"&gt;SAL&lt;/span&gt;,D_ID), &lt;span class="caps"&gt;DEPT&lt;/span&gt;(&lt;span class="caps"&gt;ID&lt;/span&gt;,&lt;span class="caps"&gt;NAME&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;Write an &lt;span class="caps"&gt;SQL&lt;/span&gt; query to get Average Salary per department, with department name for the following schema: &lt;span class="caps"&gt;EMP&lt;/span&gt;(&lt;span class="caps"&gt;ID&lt;/span&gt;,&lt;span class="caps"&gt;NAME&lt;/span&gt;,&lt;span class="caps"&gt;SAL&lt;/span&gt;,D_ID), &lt;span class="caps"&gt;DEPT&lt;/span&gt;(&lt;span class="caps"&gt;ID&lt;/span&gt;,&lt;span class="caps"&gt;NAME&lt;/span&gt;)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;This round was difficult for me. 10 of us were selected for the final round held on the next&amp;nbsp;day.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="round-4-technical-interview-algorithms-ds-cs-fundamentals"&gt;
 &lt;h2&gt;Round 4: Technical Interview (Algorithms, &lt;span class="caps"&gt;DS&lt;/span&gt;, &lt;span class="caps"&gt;CS&lt;/span&gt;&amp;nbsp;Fundamentals)&lt;/h2&gt;
 &lt;p&gt;I raised my aptitude issue again with the &lt;span class="caps"&gt;HR&lt;/span&gt;, but I got no immediate response. My interview turn came the last among all&amp;nbsp;candidates.&lt;/p&gt;
-&lt;ol class="arabic"&gt;
-&lt;li&gt;&lt;p class="first"&gt;Given a blackbox(no details of internal implemenation) Queue, make only two instances and implement stack using&amp;nbsp;them.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Queue&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="n"&gt;enqueue&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-    &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;dequeue&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two&amp;nbsp;functions.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Given a blackbox(no details of internal implemenation) class Queue{ void enqueue(int); int dequeue();}, make only two instances and implement stack using&amp;nbsp;them.&lt;/dt&gt;
+&lt;dd&gt;&lt;em&gt;I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two&amp;nbsp;functions.&lt;/em&gt;&lt;/dd&gt;
+&lt;/dl&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;Given a 2d array of &amp;#8216;x&amp;#8217;s and &amp;#8216;o&amp;#8217;s, where &amp;#8216;x&amp;#8217; is land and &amp;#8216;o&amp;#8217; is water, return number of continents, land is connected 4 ways not&amp;nbsp;diagonally.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted &amp;#8216;x&amp;#8217;s to &amp;#8216;o&amp;#8217;s in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gave me a hint that continents would always be rectangles. I tried using the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move&amp;nbsp;on.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;Given a 2d array of &amp;#8216;x&amp;#8217;s and &amp;#8216;o&amp;#8217;s, where &amp;#8216;x&amp;#8217; is land and &amp;#8216;o&amp;#8217; is water, return number of continents, land is connected 4 ways not&amp;nbsp;diagonally.&lt;/dt&gt;
+&lt;dd&gt;&lt;em&gt;I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted &amp;#8216;x&amp;#8217;s to &amp;#8216;o&amp;#8217;s in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gives me a hint that continents would always be rectangles. I got the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move&amp;nbsp;on.&lt;/em&gt;&lt;/dd&gt;
+&lt;/dl&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal&amp;nbsp;collisions.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the&amp;nbsp;interview.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;li&gt;&lt;dl class="first docutils"&gt;
+&lt;dt&gt;10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal&amp;nbsp;collisions.&lt;/dt&gt;
+&lt;dd&gt;&lt;em&gt;Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the&amp;nbsp;interview.&lt;/em&gt;&lt;/dd&gt;
+&lt;/dl&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Again this round was difficult for me but here is the twist!
@@ -137,7 +132,7 @@ Directi considered my issue and gave me a fair shot at Application profile. I wa
 &lt;p&gt;&lt;span class="caps"&gt;P.S.&lt;/span&gt; I have a comments section now. You can leave any questions / suggestions / corrections / feedback&amp;nbsp;below.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="interview"></category><category term="programming"></category><category term="competitive-programming"></category><category term="problem-solving"></category></entry><entry><title>ProFit app showcase</title><link href="https://chiragjn.github.io/blog/profit-app-showcase.html" rel="alternate"></link><published>2016-02-29T22:05:00+05:30</published><updated>2016-02-29T22:05:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2016-02-29:/blog/profit-app-showcase.html</id><summary type="html">&lt;p class="first last"&gt;The ProFit android app&amp;nbsp;showcase&lt;/p&gt;
+</content><category term="Technology"></category><category term="software"></category><category term="interview"></category></entry><entry><title>ProFit app showcase</title><link href="https://chiragjn.github.io/blog/profit-app-showcase.html" rel="alternate"></link><published>2016-02-29T22:05:00+05:30</published><updated>2016-02-29T22:05:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2016-02-29:/blog/profit-app-showcase.html</id><summary type="html">&lt;p class="first last"&gt;The ProFit android app&amp;nbsp;showcase&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;So a lot of people asked me about what my team made that won us the first prize at SportsHack 2016 Hackathon held by &lt;a class="reference external" href="http://india.zonestartups.com/"&gt;Zone Startups&lt;/a&gt;,India in Association with &lt;a class="reference external" href="http://www.ausport.gov.au/ais"&gt;Australia Institute of Sports&lt;/a&gt;.So here&amp;#8217;s to ProFit - The PROfessional FITness&amp;nbsp;App.&lt;/p&gt;
 &lt;img alt="ProFit App Icon" class="align-center" src="images/profit/ic_launcher.png" style="width: 144.0px; height: 144.0px;" /&gt;
 &lt;div class="section" id="about-profit"&gt;
@@ -189,11 +184,12 @@ Directi considered my issue and gave me a fair shot at Application profile. I wa
 &lt;p&gt;&lt;a class="reference external" href="https://www.facebook.com/s4shyam95"&gt;Shyam Mehta&lt;/a&gt; for the summary on&amp;nbsp;ProFit&lt;/p&gt;
 &lt;p&gt;Vitaly Rubstov for his inspiring &lt;a class="reference external" href="http://works.yalantis.com/workout-book/"&gt;Workout Book &lt;span class="caps"&gt;UI&lt;/span&gt; and &lt;span class="caps"&gt;UX&lt;/span&gt;&amp;nbsp;concept&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="technology"></category><category term="software"></category><category term="fitness"></category><category term="hackathon"></category><category term="android"></category><category term="fitons"></category></entry><entry><title>The Coming Soon Plugin for Pelican</title><link href="https://chiragjn.github.io/blog/the-coming-soon-plugin-for-pelican.html" rel="alternate"></link><published>2015-12-04T23:51:00+05:30</published><updated>2015-12-04T23:51:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:/blog/the-coming-soon-plugin-for-pelican.html</id><summary type="html">&lt;p class="first last"&gt;Make drafts visible as &amp;#8220;Coming&amp;nbsp;Soon&amp;#8221;&lt;/p&gt;
+</content><category term="Technology"></category><category term="technology"></category><category term="software"></category><category term="fitness"></category><category term="hackathon"></category><category term="android"></category><category term="fitons"></category></entry><entry><title>The Coming Soon Plugin for Pelican</title><link href="https://chiragjn.github.io/blog/the-coming-soon-plugin-for-pelican.html" rel="alternate"></link><published>2015-12-04T23:51:00+05:30</published><updated>2015-12-04T23:51:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:/blog/the-coming-soon-plugin-for-pelican.html</id><summary type="html">&lt;p class="first last"&gt;Make drafts visible as &amp;#8220;Coming&amp;nbsp;Soon&amp;#8221;&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Want to keep your pelican blog readers excited with what you are working with?
-I made a small plugin for Pelican which allows you to add &amp;#8220;Coming Soon&amp;#8221; Status to your blog posts. Your readers will see these articles listed on your blog but not its&amp;nbsp;content.&lt;/p&gt;
+I made a small plugin for Pelican which allows you to add &amp;#8220;Coming Soon&amp;#8221; Status to your blog posts.Your readers will see these articles listed on your blog but not its&amp;nbsp;content.&lt;/p&gt;
 &lt;p&gt;The plugin is open source and available on &lt;a class="reference external" href="https://github.com/chiragjn/pelican-coming-soon-plugin"&gt;Github&lt;/a&gt; . Please see the &lt;span class="caps"&gt;README&lt;/span&gt;.md on on Github on how to integrate and use this&amp;nbsp;plugin.&lt;/p&gt;
 &lt;img alt="Screenshot" class="align-center" src="https://raw.githubusercontent.com/chiragjn/pelican-coming-soon-plugin/master/screenshot.png" /&gt;
-&lt;p&gt;&lt;span class="caps"&gt;P.S.&lt;/span&gt; This plugin can make you&amp;nbsp;lazy!&lt;/p&gt;
-&lt;p&gt;&lt;span class="caps"&gt;P.S.S.&lt;/span&gt; This plugin runs a delete over output drafts to remove them from published, so be careful with&amp;nbsp;it.&lt;/p&gt;
-</content><category term="software"></category><category term="pelican"></category></entry></feed>
+&lt;p&gt;&lt;span class="caps"&gt;P.S.&lt;/span&gt; This plugin can make you lazy!
+&lt;span class="caps"&gt;P.S.S.&lt;/span&gt; This plugin is not completely tested and runs a delete over output drafts to remove them from&amp;nbsp;published&lt;/p&gt;
+</content><category term="technology"></category><category term="software"></category><category term="pelican"></category></entry><entry><title>Moving to Pelican</title><link href="https://chiragjn.github.io/blog/drafts/moving-to-pelican.html" rel="alternate"></link><published>2015-12-04T04:08:00+05:30</published><updated>2015-12-04T04:08:00+05:30</updated><author><name>Chirag Jain</name></author><id>tag:chiragjn.github.io,2015-12-04:/blog/drafts/moving-to-pelican.html</id><summary type="html">&lt;p class="first last"&gt;The adventure from Wordpress to&amp;nbsp;Pelican&lt;/p&gt;
+</summary><content type="html">This article will be published soon</content><category term="Technology"></category><category term="software"></category><category term="technology"></category><category term="pelican"></category><category term="blogging"></category></entry></feed>
