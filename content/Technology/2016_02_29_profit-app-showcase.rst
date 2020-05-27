@@ -153,7 +153,7 @@ The Fitons team
 For the Geeks
 =============
 
-The source code for this Android app is available here_.But it is no where near production level code and it contains deliberate 'hacks' to make things work.Also we used Apache ANT build system(will never again,we hit the 65K dex methods limit :P ) instead of Gradle so checkout project.properties files for all the awesome libraries we used.
+The source code for this Android app is available here_. But it is no where near production level code and it contains deliberate 'hacks' to make things work. Also we used Apache ANT build system (will never again,we hit the 65K dex methods limit :P ) instead of Gradle so checkout project.properties files for all the awesome libraries we used.
 
 Also, will update this article with the minor problems we faced during development.
 
