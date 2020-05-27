@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% block title %}Category: {{ category|striptags }}{% endblock %}
+
+{% block header %}
+<p>Category: {{ category }}
+    {% if CATEGORY_FEED_ATOM and category %}
+    &#124; <a href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" title="{{ category }} Feed"><i class="fa fa-rss"></i></a>
+    {% endif %}
+    {% if CATEGORY_FEED_RSS and category %}
+    &#124; <a href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" title="{{ category }} Feed"><i class="fa fa-rss"></i></a>
+    {% endif %}</p>
+{% endblock %}

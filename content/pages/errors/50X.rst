@@ -1,0 +1,11 @@
+Internal Server Error
+#####################
+
+:slug: 50X
+:status: hidden
+
+
+.. raw:: html
+
+	<div style="font-size: 5em;text-align:center;margin-top:1em;">50X</div>
+	<div style="font-size: 2em;text-align:center;margin-top:1em;margin-bottom:2em;">Something went wrong.We will be back!</div>

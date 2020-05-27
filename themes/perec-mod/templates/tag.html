@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% block title %}Tag: {{ tag|striptags }}{% endblock %}
+
+{% block header %}
+<p>Tag: {{ tag }}
+    {% if TAG_FEED_ATOM and tag %}
+    &#124; <a href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}"><i class="fa fa-rss"></i></a>
+    {% endif %}
+    {% if TAG_FEED_RSS and tag %}
+    &#124; <a href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}"><i class="fa fa-rss"></i></a>
+    {% endif %}</p>
+{% endblock %}

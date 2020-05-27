@@ -1,0 +1,11 @@
+404 Page not found
+##################
+
+:slug: 404
+:status: hidden
+
+
+.. raw:: html
+
+	<div style="font-size: 5em;text-align:center;margin-top:1em;">404</div>
+	<div style="font-size: 2em;text-align:center;margin-top:1em;margin-bottom:2em;">Looks like you lost your way</div>

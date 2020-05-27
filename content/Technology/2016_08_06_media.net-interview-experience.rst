@@ -1,0 +1,161 @@
+Media.net Interview Experience
+##############################
+
+:date: 2016-8-6 14:23
+:tags: software,interview
+:category: Technology
+:slug: media-net-interview-experience
+:summary: My interview experience at Directi
+:status: published
+
+Media.net visited my college campus this year for hiring developers for Web/Database Engineer and Application Engineer roles.
+
+
+	"`Media.net`_ a `Directi`_ company, powers the Yahoo! Bing Network Contextual Ads program and is a leading global contextual advertising company that provides a wide range of advertising and traffic monetization solutions."
+
+They had four rounds, one programming aptitude and three one-on-one technical interviews. Each round was an elimination round. I have listed down most of the questions asked in all four rounds as best as I can remember them. I am leaving out the solutions to these questions for exercise to the reader.  Some questions are follow up questions. Some of these are open ended questions and can be answered better by self exploration.
+
+=============================
+Round 1: Programming Aptitude
+=============================
+
+This round has two competitive programming style questions to solve in 90 minutes and was hosted on Codechef. To qualify for Web/Database interview, we had to solve one and for the Application role, both. Even though they had partial scoring scheme, they considered only completely solved solutions.
+
+Question 1:
+
+.. code-block:: none
+
+	In a room with N people, some people wear a white band and others wear a black band.
+	No individual knows the color of their own band.
+	Each person reports the count of white bands Wi they can see in the room.
+	Given N such integers return how many are wearing white bands.
+	If invalid configuration return -1
+
+	So example {1,1,2,2} will return 2, {10,10} will return -1, {2,2,2} will return 3
+
+	Constraints: 2 ≤ N ≤ 50, 0 ≤ Wi ≤ 50
+
+Question 2:
+
+.. code-block:: none
+
+	You are walking down the escalator to catch a subway train.
+	The escalator itself moves at a speed of Ve meters per minute.
+	You can walk down the escalator at a relative speed of Vy meters per minute.
+	The length of the escalator is L meters.
+	Trains arrive T minutes apart.
+	Let t be the time between your arrival to the station if you stand still on the
+	escalator and the arrival of the last train before your arrival.
+	Assume that t is a random variable uniformly distributed between 0 and T.
+	Return the probability of catching an earlier train if you choose to walk down
+	the escalator instead of standing still on it.
+
+	Tc test cases, each has 4 integers Ve, Vy, L, T
+	0 ≤ Tc ≤ 5 * 10 ^ 7
+	1 ≤ Ve ≤ 1000
+	1 ≤ Vy ≤ 1000
+	1 ≤ L ≤ 10 ^ 5
+	1 ≤ T ≤ 10 ^ 6
+
+	Input: 
+
+	2
+	10
+	10
+	20
+	2
+	10
+	10
+	100
+	4
+
+	Output:
+
+	0.5
+	1.0
+
+I managed to solve the first one quickly. It just happened that I had solved the second problem before in their off-campus internship round and got it accepted back then, but despite submitting the same logic this time I got a wrong answer verdict. Nobody managed to solve it this time. I tried contacting the on-campus co-ordinators, they agreed that they did reuse the problem but they said they tested everything. I wasn't satisfied. As software engineers shouldn't we expect the code we wrote yesterday to work the same today ?
+
+At the end of the test, 12 from our college were selected to appear for the Web/Database interview rounds the next day in Directiplex(Mumbai office).
+
+===================================================
+Round 2: Technical Interview (Algorithms, DS)
+===================================================
+
+I raised my aptitude issue, interviewer said he will inform the HR about it. Since I mentioned some web projects on resume, my interview started with web questions. All questions marked with double asterisks needed to be coded on paper.
+
+1. Tell me about different HTTP response codes ?
+2. How is a website loaded ?
+3. How do sessions work in PHP ? Where is session stored ? How do stateless http requests match the same session for a user ?
+4. Why did you choose Laravel only for PHP? Why not some other framework?
+5. Do you know about XSS attacks ?
+6. ** Get second highest number from array in single pass.
+7. ** Get second last node in linked list without knowing the length.
+8. ** Print all perfect cubes between L and R.
+9. ** From an array, find the minimum length subarray which sums upto strictly greater than a given number x.
+10. What databases have you worked with ? Have you heard of in memory databases ? Advantages and disadvantages over disk based database systems.
+11. What mechanisms do you think you will need to have to be able to use in memory database ?
+
+This round was easy and I was able to give satisfactory answers. 11 of us were selected for the next round.
+
+=============================================
+Round 3: Technical Interview (Web, Databases)
+=============================================
+
+This round was very profile specific and I barely managed to produce satisfactory answers but I kept giving answers even though I was uncertain about a lot of things.
+
+1. What all things to take care of while calling third party APIs ? (you don't own the API)
+2. How does session work ? Where is it stored ? Alternatives to store ? What if I disabled cookies on client side, how will server recognise my session now ? Any way to fallback on something else ? How do sessions propagate accross requests ?
+3. XML/ JSON parsing in Javascript, given some example , write code to get some value from JSON object or JSON array out, optimise the written code.
+4. How does Ajax work ?
+5. What are cookies ? What would you store in them ? Where are cookies stored ? What is that path on the disk ? As an end user, if I don't know the disk path, is there someway I can view the cookies ?
+6. What is XMLHTTPRequest ?
+7. Storage engines in MySQL ? Differences between InnoDB and MyISAM ? What other storage engines you have heard of ?
+8. You get results from 3rd party API in paginated fashion or say you scrape the pages, how would you get the total count of results without parsing all pages ? (*I asked if the pagination was even, interviewer denied and I got stuck for long time, gave some approaches but nothing seemed a complete solution*)
+9. Write an SQL query to get Average Salary per department, with department name for the following schema: EMP(ID,NAME,SAL,D_ID), DEPT(ID,NAME)
+
+This round was difficult for me. 10 of us were selected for the final round held on the next day.
+
+==============================================================
+Round 4: Technical Interview (Algorithms, DS, CS Fundamentals)
+==============================================================
+
+I raised my aptitude issue again with the HR, but I got no immediate response. My interview turn came the last among all candidates.
+
+1. Given a blackbox(no details of internal implemenation) class Queue{ void enqueue(int); int dequeue();}, make only two instances and implement stack using them.
+	*I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two functions.*
+
+2. Given a 2d array of 'x's and 'o's, where 'x' is land and 'o' is water, return number of continents, land is connected 4 ways not diagonally.
+	*I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted 'x's to 'o's in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gives me a hint that continents would always be rectangles. I got the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move on.*
+
+3. 10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal collisions.
+	*Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the interview.*
+
+Again this round was difficult for me but here is the twist!
+Directi considered my issue and gave me a fair shot at Application profile. I was interviewed for Application profile and I didn't knew it till the end. At the end of the interview, my interviewer told me I was interviewed for Application profile instead of Web/Database and I didn't make the Application profile bar. I was offered the Web Developer role.
+
+=====================
+Conclusion and Advice
+=====================
+
+To conclude, it was a positive experience for me and 8 out of 12 including me were hired for the Web developer role. Rejection is not always a bad thing! After getting rejected from Morgan Stanley interview few days back I was able to target and prepare better. And there are off-campus rounds every year to apply in.
+
+0. For Algorithms and DS, read the classical problems and paradigms. Learn `here <http://www.geeksforgeeks.org/fundamentals-of-algorithms/>`_ and `here <http://www.geeksforgeeks.org/data-structures/>`__. Operating Systems, Databases and Computer Networks questions are often asked.
+1. Practice competitive programming contests on `Codeforces`_, especially as virtual contests to get the feel of time bound tests. Don't just skip to editorial very early, think, think very hard!. Don't just read/copy algorithms, understand and implement them, you will code the same thing very confidently and quickly the next time.
+2. Get used to writing code on paper. Typing is very easy!
+3. Get ready to answer anything related to the profile you have applied for. Take your time and think out loud even if unsure.
+4. Never assume anything! Ask. We live in a world where tools 'just' work out of the box. Directi has very tech savvy people, there is literally tech scribbled all over their glass panes and whiteboards. It is very important to not take things for granted and know the internals/working of the tools.
+5. Research the company and their work.
+6. Evaluate yourself, know your strengths and weaknesses, how to describe yourself.
+
+Also if you end up in a issue like mine, don't hesitate to talk with the HR as soon as possible, but do so with proof in hand.
+
+-------------
+Best of luck!
+-------------
+
+P.S. I have a comments section now. You can leave any questions / suggestions / corrections / feedback below.
+
+.. _`Media.net`: http://www.media.net
+.. _`Directi`: http://directi.com
+.. _`Codeforces`: http://codeforces.com
