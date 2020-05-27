@@ -14,8 +14,6 @@
   <meta name="description" content="Posts and writings by Chirag Jain">
   <link rel="shortcut icon" href="https://chiragjn.github.io/blog/theme/images/favicon.ico" type="image/x-icon" />
 
-    <link href="https://chiragjn.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Digital Paper Full Atom Feed" />
-    <link href="https://chiragjn.github.io/blog/feeds/technology.atom.xml" type="application/atom+xml" rel="alternate" title="The Digital Paper Categories Atom Feed" />
 
 <link rel="stylesheet" href="https://chiragjn.github.io/blog/theme/font-awesome/css/font-awesome.min.css">
 <meta name="keywords" content="interview, programming, competitive-programming, problem-solving">
@@ -167,7 +165,7 @@ Output:
 <ol class="arabic">
 <li><p class="first">Given a blackbox(no details of internal implemenation) Queue, make only two instances and implement stack using&nbsp;them.</p>
 <blockquote>
-<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Queue</span><span class="p">{</span>
+<div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Queue</span> <span class="p">{</span>
     <span class="kt">void</span> <span class="n">enqueue</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span>
     <span class="kt">int</span> <span class="nf">dequeue</span><span class="p">();</span>
 <span class="p">}</span>
@@ -175,15 +173,17 @@ Output:
 <p><em>I initially assumed there is a size() function, but interviewer denied my first draft, then I managed to write it using just the given two&nbsp;functions.</em></p>
 </blockquote>
 </li>
-<li><p class="first">Given a 2d array of &#8216;x&#8217;s and &#8216;o&#8217;s, where &#8216;x&#8217; is land and &#8216;o&#8217; is water, return number of continents, land is connected 4 ways not&nbsp;diagonally.</p>
-<blockquote>
-<p><em>I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted &#8216;x&#8217;s to &#8216;o&#8217;s in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gave me a hint that continents would always be rectangles. I tried using the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move&nbsp;on.</em></p>
-</blockquote>
+<li><dl class="first docutils">
+<dt>Given a 2d array of &#8216;x&#8217;s and &#8216;o&#8217;s, where &#8216;x&#8217; is land and &#8216;o&#8217; is water, return number of continents, land is connected 4 ways not&nbsp;diagonally.</dt>
+<dd><p class="first last"><em>I wrote a floodfill algorithm with extra visited[][] array but interviewer told me to do it without the visited[][] array. I converted &#8216;x&#8217;s to &#8216;o&#8217;s in my original input array but again interviewer told me 2d array is read only. At this point I was stuck for a long time. Later interviewer gives me a hint that continents would always be rectangles. I got the hint, it made coding tedious, I started coding, but after 5 mins of code scribbling, interviewer decided to move&nbsp;on.</em></p>
+</dd>
+</dl>
 </li>
-<li><p class="first">10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal&nbsp;collisions.</p>
-<blockquote>
-<p><em>Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the&nbsp;interview.</em></p>
-</blockquote>
+<li><dl class="first docutils">
+<dt>10 million strings each of length 10 consisting A-Z,a-z,0-9, design an efficient hashing algorithm with no/minimal&nbsp;collisions.</dt>
+<dd><p class="first last"><em>Again stuck for a long time, After 2-3 approaches, interviewer was not satisfied and decided to end the&nbsp;interview.</em></p>
+</dd>
+</dl>
 </li>
 </ol>
 <p>Again this round was difficult for me but here is the twist!
